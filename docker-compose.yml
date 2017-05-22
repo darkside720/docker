@@ -1,0 +1,6 @@
+wp:
+  build: .
+  ports:
+  - 9000:80
+  volumes:
+  - /Users/aparagas/workshop/ec2/ziffdavis/GeekRedesign:/www
